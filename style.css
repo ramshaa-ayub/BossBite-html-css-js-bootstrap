@@ -1,0 +1,58 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.burger-img {
+    animation: floatBurger 3s ease-in-out infinite;
+}
+
+ .navbar h1{
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+} 
+
+.hero-header h1{
+font-family: "lobster", sans-serif;
+    font-weight: 400;
+} 
+
+@keyframes floatBurger {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+@media (max-width: 991px){
+
+    .hero-header .col-lg-6{
+        margin-top: -20px;
+    }
+   
+    .burger-img{    
+        margin-top: -20px;
+    }
+
+    .hero-header .btn{
+        margin-top: -10px;
+    }
+
+}
+
+@media (max-width: 485px){
+
+    .burger-img{
+        margin-top: 16px;
+    }
+
+}
+
