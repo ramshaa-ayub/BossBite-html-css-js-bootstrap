@@ -6,15 +6,85 @@ body {
     animation: floatBurger 3s ease-in-out infinite;
 }
 
- .navbar h1{
+.navbar h1 {
     font-family: "lobster", sans-serif;
     font-weight: 400;
-} 
+}
 
-.hero-header h1{
-font-family: "lobster", sans-serif;
+.hero-header h1 {
+    font-family: "lobster", sans-serif;
     font-weight: 400;
-} 
+}
+
+.service h5 {
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.about h5 {
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.about h1 {
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+    z-index: 99;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-card img {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.menu-card img:hover {
+    transform: scale(1.05);
+}
+
+.menu h5 {
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+}
+
+.menu h1 {
+    font-family: "lobster", sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+
+}
+
+.menu p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(83, 83, 83);
+}
+
+.menu-card h5 {
+    font-family: "lobster", sans-serif;
+    font-weight: 200;
+    font-size: 34px;
+}
+
+
+
 
 @keyframes floatBurger {
 
@@ -32,27 +102,27 @@ font-family: "lobster", sans-serif;
 
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
 
-    .hero-header .col-lg-6{
-        margin-top: -20px;
-    }
-   
-    .burger-img{    
+    .hero-header .col-lg-6 {
         margin-top: -20px;
     }
 
-    .hero-header .btn{
+    .burger-img {
+        margin-top: -20px;
+    }
+
+    .hero-header .btn {
         margin-top: -10px;
     }
 
+
 }
 
-@media (max-width: 485px){
+@media (max-width: 485px) {
 
-    .burger-img{
+    .burger-img {
         margin-top: 16px;
     }
 
 }
-
