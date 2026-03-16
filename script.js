@@ -17,3 +17,20 @@ document.querySelector(".back-to-top").addEventListener("click", function(e){
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", function(e) {
+
+        e.preventDefault(); 
+
+        alert("🍔 Your table has been reserved successfully!");
+
+        form.reset(); 
+
+    });
+
+});
+
+
